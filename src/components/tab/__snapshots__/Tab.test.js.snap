@@ -5,9 +5,19 @@ exports[`Tab component renders Tab 1`] = `
   <input
     name="tabs"
     type="radio"
+    value="1"
   />
-  <label>
+  <label
+    htmlFor="1"
+  >
      TAB 
+    1
   </label>
+  <button
+    onClick={[Function]}
+    value="1"
+  >
+    X
+  </button>
 </li>
 `;

@@ -4,7 +4,7 @@ import Tab from './Tab';
 
 describe('Tab component', () => {
   it('renders Tab', () => {
-    const wrapper = shallow(<Tab />);
+    const wrapper = shallow(<Tab title={'1'} handleDelete={() => {}} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

@@ -5,7 +5,11 @@ exports[`Tabs component renders Tabs 1`] = `
   value={null}
 >
   <Tabs
+    handleChange={[Function]}
     handleClick={[Function]}
+    handleDelete={[Function]}
+    handleSubmit={[Function]}
+    searchTerm=""
     store={
       Object {
         "dispatch": [Function],
