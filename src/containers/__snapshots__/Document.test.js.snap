@@ -2,20 +2,35 @@
 
 exports[`Document component renders Document 1`] = `
 <ContextProvider
-  value={null}
->
-  <Document
-    markdown="# hi there"
-    store={
-      Object {
+  value={
+    Object {
+      "store": Object {
         "dispatch": [Function],
         "getState": [Function],
         "replaceReducer": [Function],
         "subscribe": [Function],
         Symbol(observable): [Function],
-      }
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": null,
+      },
     }
-    updateMarkdown={[Function]}
-  />
+  }
+>
+  <Document />
+  );
 </ContextProvider>
 `;

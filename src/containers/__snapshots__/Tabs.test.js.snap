@@ -2,28 +2,35 @@
 
 exports[`Tabs component renders Tabs 1`] = `
 <ContextProvider
-  value={null}
->
-  <Tabs
-    handleChange={[Function]}
-    handleClick={[Function]}
-    handleDelete={[Function]}
-    handleSubmit={[Function]}
-    searchTerm=""
-    store={
-      Object {
+  value={
+    Object {
+      "store": Object {
         "dispatch": [Function],
         "getState": [Function],
         "replaceReducer": [Function],
         "subscribe": [Function],
         Symbol(observable): [Function],
-      }
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": null,
+      },
     }
-    titles={
-      Array [
-        "default",
-      ]
-    }
-  />
+  }
+>
+  <Tabs />
+  );
 </ContextProvider>
 `;

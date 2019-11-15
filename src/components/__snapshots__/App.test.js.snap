@@ -5,7 +5,7 @@ exports[`App component renders App 1`] = `
   <h1>
     Markdown Editor
   </h1>
-  <Connect(Document) />
-  <Connect(Tabs) />
+  <Document />
+  <Tabs />
 </Fragment>
 `;
