@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Tab from './Tab';
 
-const TabDeck = ({ titles }) => {
+const TabDeck = ({ titles, handleDelete }) => {
   const tabItems = titles.map(title => {
     return (
-      <Tab key={title} title={title} />
+      <Tab handleDelete={handleDelete} key={title} title={title} />
     );
   });
 
@@ -17,7 +17,8 @@ const TabDeck = ({ titles }) => {
 };
 
 TabDeck.propTypes = {
-  titles: PropTypes.array.isRequired
+  titles: PropTypes.array.isRequired,
+  handleDelete: PropTypes.func.isRequired
 };
 
 export default TabDeck;
