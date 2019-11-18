@@ -1,5 +1,12 @@
 # Markdownly
+## Author: Abbey Masters
 
+## Submission Links
+[GitHub] (https://github.com/abbeymasters/markdownly/pull/17)
+[Travis] (https://travis-ci.com/abbeymasters/markdownly/builds/136780552)
+[Netlify] (https://competent-mcclintock-bd0b09.netlify.com/)
+
+## Instructions
 We currently have a markdown editor that allows our customers to edit markdown
 files and see a preview. The editor is becoming more popular and we have several
 feature requests asking us to allow users to edit multiple markdown files at once.
