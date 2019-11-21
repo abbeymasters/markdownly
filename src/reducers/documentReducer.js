@@ -17,6 +17,7 @@ export default function reducer(state = initialState, action) {
     case SWITCH_TABS:
       return { ...state, active: action.payload };
     case DELETE_TAB:
+      // eslint-disable-next-line no-console
       if(action.payload === 'default') console.log('Cannot delete default file!');
       else delete state.markdowns[action.payload];
       return { ...state, active: 'default' };
