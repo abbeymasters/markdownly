@@ -17,9 +17,9 @@ export default function reducer(state = initialState, action) {
     case SWITCH_TABS:
       return { ...state, active: action.payload };
     case DELETE_TAB:
-      if(action.payload !== 'default')
-        delete state.markdowns[action.payload];
-      return { ...state };
+      if(action.payload === 'default') console.log('Cannot delete default file!');
+      else delete state.markdowns[action.payload];
+      return { ...state, active: 'default' };
     case ADD_SEARCH:
       return { ...state, searchTerm: action.payload };
     default:
