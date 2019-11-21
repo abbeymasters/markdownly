@@ -4,6 +4,7 @@ exports[`Tab component renders Tab 1`] = `
 <li>
   <input
     name="tabs"
+    onClick={[Function]}
     type="radio"
     value="1"
   />
@@ -12,7 +13,9 @@ exports[`Tab component renders Tab 1`] = `
   >
      TAB 
     1
+     
   </label>
+  <br />
   <button
     onClick={[Function]}
     value="1"

@@ -38,7 +38,7 @@ describe('documentReducer component', () => {
     });
   });
 
-  it('handles adding a tab case', () => {
+  it.skip('handles adding a tab case', () => {
     const state = {
       active: 'default',
       markdowns: {

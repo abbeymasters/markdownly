@@ -10,6 +10,12 @@ export const addTab = title => ({
   payload: title
 });
 
+export const SWITCH_TABS = 'SWITCH_TABS';
+export const switchTabs = title => ({
+  type: SWITCH_TABS,
+  payload: title
+});
+
 export const DELETE_TAB = 'DELETE_TAB';
 export const deleteTab = title => ({
   type: DELETE_TAB,
@@ -27,4 +33,5 @@ export const getMatchTitle = searchTerm => ({
   type: GET_MATCH_TITLE,
   payload: searchTerm
 });
+
 
